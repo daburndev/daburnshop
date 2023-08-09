@@ -71,7 +71,7 @@ const Navbar = () => {
         </Left>
         <Center>
             <Logo>
-                Four Twenty.
+                Four Twenty
             </Logo>
         </Center>
         <Right>
