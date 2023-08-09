@@ -1,4 +1,4 @@
-# fourtwenty
+# eCommerce App 
 React Node Full Stack eCommerce App
 
 # npx create-react-app
