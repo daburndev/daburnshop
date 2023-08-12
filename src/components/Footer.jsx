@@ -76,8 +76,8 @@ const Line = styled.img`
 const Map = styled.iframe`
     margin-bottom: 20px;
     display: flex;
-    width: 600px;
-    height: 450px;
+    width: 400px;
+    height: 300px;
     border: 0;
     align-items: center;
     justify-content: center;
