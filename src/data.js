@@ -78,5 +78,23 @@ export const flowerProducts = [
         img:"../assets/images/theruntz.webp",
         desc:"Sativa Dominant 60% THC 22% CBD < 0.2%",
         title:"The Runtz"
-    }
+    },
+    {
+        id:6,
+        img:"../assets/images/northernlight.webp",
+        desc:"Indica Dominant 90% THC 21% CBD 1%",
+        title:"Northern Light"
+    },
+    {
+        id:7,
+        img:"../assets/images/purplekush.webp",
+        desc:"Indica 100% THC 19% CBD < 0.2%",
+        title:"Purple Kush"
+    },
+    {
+        id:8,
+        img:"../assets/images/whiterhino.webp",
+        desc:"Indica Dominant 80% THC 20% CBD < 0.5%",
+        title:"White Rhino"
+    },
 ]
