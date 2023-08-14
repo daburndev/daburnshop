@@ -77,7 +77,7 @@ const Map = styled.iframe`
     margin-bottom: 20px;
     display: flex;
     width: 400px;
-    height: 300px;
+    height: 400px;
     border: 0;
     align-items: center;
     justify-content: center;

@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-        Super Deal! Free Delivery on Orders Over 2,000 THB
+        Super Deal! Free Delivery on Orders Over 3,000 THB
     </Container>
   )
 }
