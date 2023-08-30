@@ -2,8 +2,8 @@ export const sliderItems = [
 {
     id: 1,
     img: "../assets/images/cover.png",
-    title: "Vegan Chocolate",
-    desc: "NEW ARRIVALS !",
+    title: "Green Giant Deal",
+    desc: "Be the first to get your hands on 1 ounce of the day for just 10,000 THB!! (Flowers only, any strain) Available at all our branches: Sukhumvit 22, Asoke and Thong Lor",
     bg: "fcf1ed",
 },
 {   id: 2,

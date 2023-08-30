@@ -113,7 +113,8 @@ Be a part of our movement.
                 <ListItem>Cart</ListItem>
                 <ListItem>Flowers</ListItem>
                 <ListItem>CBD</ListItem>
-                <ListItem>Merchandise & Accessories</ListItem>
+                <ListItem>Merchandise</ListItem>
+                <ListItem>Accessories</ListItem>
                 <ListItem>Apparel</ListItem>
                 <ListItem>My Account</ListItem>
                 <ListItem>Order Tracking</ListItem>
