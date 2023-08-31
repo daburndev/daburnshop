@@ -1,9 +1,11 @@
 import { Facebook, Instagram } from "@mui/icons-material";
-import { styled } from "styled-components"
+import { styled } from "styled-components";
+import {mobile} from "../responsive";
 
 
 const Container = styled.div`
     display: flex;
+    ${mobile({flexDirection:"column"})};
 `;
 
 const Left = styled.div`
@@ -43,11 +45,13 @@ const SocialIcon = styled.div`
 const Center = styled.div`
     flex:1;
     padding: 20px;
+    ${mobile({display:"none"})};
 `;
 
 const Right = styled.div`
     flex:1;
     padding: 20px;
+    ${mobile({backgroundColor:"#fbf2f2"})};
     
 `;
 
@@ -75,14 +79,17 @@ const Line = styled.img`
 
 const Map = styled.iframe`
     margin-bottom: 20px;
-    display: flex;
+   
     width: 400px;
-    height: 400px;
+    height: 250px;
     border: 0;
-    align-items: center;
+    display: flex;
+     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    ${mobile({width:"350px", height:"200px"})}
 `;
+
 
 const Footer = () => {
   return (
@@ -124,6 +131,7 @@ Be a part of our movement.
         </Center>
         <Right>
             <Title>Contact</Title>
+            <Desc>Take to BTS Asoke and enjoy your 5 minutes walk to us</Desc>
             <Map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.6364633907715!2d100.55973687511872!3d13.740445997556296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f32e5ace581%3A0x4120f96b6b1c77ad!2sFour%20Twenty%20Dispensary%20-%20High%20Garden%20Asoke!5e0!3m2!1sen!2sth!4v1691866776147!5m2!1sen!2sth" />
         </Right>
 
