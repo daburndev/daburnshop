@@ -3,6 +3,8 @@ import { Badge } from '@mui/material';
 import React from 'react';
 import { styled} from 'styled-components';
 import { mobile } from '../responsive';
+import { Routes, Route, Link } from 'react-router-dom';
+import Register from '../pages/Register';
 
 const Container = styled.div`
     height: 60px;
@@ -83,13 +85,15 @@ const Navbar = () => {
             </Logo>
         </Center>
         <Right>
-            <MenuItem>REGISTER</MenuItem>
+            
+            <MenuItem>Register</MenuItem>
             <MenuItem>SIGN IN</MenuItem>
             <MenuItem>
             <Badge badgeContent={4} color="primary">
                 <ShoppingCartOutlined/>
             </Badge>
             </MenuItem>
+            
         </Right>
         </Wrapper>
     </Container>

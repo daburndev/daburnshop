@@ -109,8 +109,6 @@ const Button = styled.button`
 const Product = () => {
   return (
   <Container>
-    <Navbar/>
-    <Announcement/>
     <Wrapper>
       <ImgContainer>
           <Image src="../assets/images/theruntz.webp"/>

@@ -148,8 +148,6 @@ const SummaryButton = styled.button`
 const Cart = () => {
   return (
     <Container>
-       <Navbar/>
-       <Announcement/>
        <Wrapper>
         <Title>YOUR BAG</Title>
         <Top>
@@ -227,7 +225,7 @@ const Cart = () => {
                 <SummaryTitle>ORDER SUMMARY</SummaryTitle>
                 <SummaryItem>
                     <SummaryItemText>Subtotal</SummaryItemText>
-                    <SummaryItemPrice>฿ 1,380</SummaryItemPrice>
+                    <SummaryItemPrice>฿ 2,770</SummaryItemPrice>
                 </SummaryItem>
                 <SummaryItem>
                     <SummaryItemText>Estimated Shipping</SummaryItemText>

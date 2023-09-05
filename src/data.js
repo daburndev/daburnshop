@@ -51,7 +51,7 @@ export const categories = [
 export const flowerProducts = [
     {
         id:1,
-        img:"../assets/images/lemondiesel.webp",
+        img:"../assets/images/MCH003B.png",
         desc:"Sativa Dominant 80% THC 18% CBD < 0.2%",
         title:"Lemon Diesel"
     },
