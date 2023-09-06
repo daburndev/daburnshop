@@ -1,5 +1,5 @@
 # eCommerce App 
-React Node Full Stack eCommerce App
+React Front-End Responsive eCommerce App
 
 # npx create-react-app
 For creating the React App
